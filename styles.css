@@ -53,3 +53,8 @@ label {
   margin: 0.5rem 0
 }
 
+input[type="submit"] {
+  display: block;
+  width: 60%;
+}
+
