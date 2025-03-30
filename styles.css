@@ -21,25 +21,20 @@ form {
 }
 
 fieldset {
-  border: 0;
+  border: none;
   padding 2rem 0;
   border-bottom: 3px solid #3b3b4f;
 }
 
 input, textarea, select {
   width: 100%;
-  margin-top:10px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 10px 0 0 0;
 }
 
 .inline {
   width: unset;
-  margin-right: 0.5em;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
 }
 
 fieldset:last-of-type {
